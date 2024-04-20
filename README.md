@@ -6,7 +6,7 @@ This is a mock backend server built with Express.js to provide data related to c
 
 1. Clone this repository.
 2. Navigate to the project directory.
-3. Run `npm install` to install dependencies.
+3. Run `bun install` to install dependencies.
 
 Clone the project
 
@@ -25,29 +25,23 @@ Install dependencies using `bun`
 ```bash
   bun install
 ```
-Start the server
+
+Start server :
 
 ```bash
-  npm run start
+  bun server.ts
 ```
 
-alternatively you can use `npm`
+alternatively you could run it using hot reload
 
 ```bash
-  npm install
+  bun --hot run server.ts
 ```
-
-Start the server
-
-```bash
-  npm run start
-```
-
 
 
 ## Usage
 
-- Run `npm start` or `bun server.ts` to start the server.
+- Run `bun server.ts` or `bun --hot run server.ts` to start the server.
 - Access the following endpoints to retrieve data:
 
 ### Countries Data
