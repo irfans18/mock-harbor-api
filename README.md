@@ -8,9 +8,46 @@ This is a mock backend server built with Express.js to provide data related to c
 2. Navigate to the project directory.
 3. Run `npm install` to install dependencies.
 
+Clone the project
+
+```bash
+  git clone https://github.com/irfans18/mock-harbor-api.git
+```
+
+Go to the project directory
+
+```bash
+  cd mock-harbor-api
+```
+
+Install dependencies using `bun`
+
+```bash
+  bun install
+```
+Start the server
+
+```bash
+  npm run start
+```
+
+alternatively you can use `npm`
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+
+
 ## Usage
 
-- Run `npm start` to start the server.
+- Run `npm start` or `bun server.ts` to start the server.
 - Access the following endpoints to retrieve data:
 
 ### Countries Data
